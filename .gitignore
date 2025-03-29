@@ -1,7 +1,6 @@
 # User-specific files
 .idea/
 .vs/
-.vscode/
 *.user
 *.suo
 *.userosscache
@@ -13,9 +12,6 @@ obj/
 
 # ASP.NET Core
 wwwroot/
-
-# User-specific VSCode workspace settings
-.vscode/
 
 # JetBrains Rider settings
 .idea/
