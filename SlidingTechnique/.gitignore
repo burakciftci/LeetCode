@@ -1,0 +1,33 @@
+# User-specific files
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# ASP.NET Core
+wwwroot/
+
+# User-specific VSCode workspace settings
+.vscode/
+
+# JetBrains Rider settings
+.idea/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows Installer XML (WiX) files
+*.wixpdb
+
+# Other
+*.log
