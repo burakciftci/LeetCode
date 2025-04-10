@@ -1,16 +1,49 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "build",
-            "type": "shell",
-            "command": "dotnet build",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": "$msCompile",
-            "detail": "Generated task for building the project."
-        }
-    ]
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build-median",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/MedianOfTwoSorted/MedianOfTwoSorted.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-sliding",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/SlidingTechnique/SlidingTechnique.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-palindromic",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/LongestPalindromicSub/LongestPalindromicSub.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-zigzag",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/ZigZagConversion/ZigZagConversion.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    }
+  ]
 }

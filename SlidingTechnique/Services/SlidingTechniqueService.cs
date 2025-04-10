@@ -1,4 +1,4 @@
-namespace SlidingTechnique;
+namespace LeetCode;
 
 public class SlidingTechniqueService
 {

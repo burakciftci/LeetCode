@@ -1,4 +1,4 @@
-﻿using SlidingTechnique;
+﻿using LeetCode;
 
 var slidingService = new SlidingTechniqueService();
 

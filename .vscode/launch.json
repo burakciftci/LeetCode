@@ -1,45 +1,45 @@
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "MedianOfTwoSortedArrays",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/MedianOfTwoSortedArrays/bin/Debug/net9.0/MedianOfTwoSortedArrays.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "stopAtEntry": false,
-            "serverReadyAction": {
-                "action": "openExternally",
-                "pattern": "\\bhttps?://\\S+\\b"
-            },
-            "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
-            }
-        },
-        {
-            "name": "SlidingTechnique",
-            "type": "coreclr",
-            "request": "launch",
-            "preLaunchTask": "build",
-            "program": "${workspaceFolder}/SlidingTechnique/bin/Debug/net9.0/SlidingTechnique.dll",
-            "args": [],
-            "cwd": "${workspaceFolder}",
-            "stopAtEntry": false,
-            "serverReadyAction": {
-                "action": "openExternally",
-                "pattern": "\\bhttps?://\\S+\\b"
-            },
-            "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
-            },
-            "sourceFileMap": {
-                "/Views": "${workspaceFolder}/Views"
-            }
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "MedianOfTwoSorted",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-median",
+      "program": "${workspaceFolder}/MedianOfTwoSorted/bin/Debug/net9.0/MedianOfTwoSorted.dll",
+      "cwd": "${workspaceFolder}/MedianOfTwoSorted",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "SlidingTechnique",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-sliding",
+      "program": "${workspaceFolder}/SlidingTechnique/bin/Debug/net9.0/SlidingTechnique.dll",
+      "cwd": "${workspaceFolder}/SlidingTechnique",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "LongestPalindromicSub",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-palindromic",
+      "program": "${workspaceFolder}/LongestPalindromicSub/bin/Debug/net9.0/LongestPalindromicSub.dll",
+      "cwd": "${workspaceFolder}/LongestPalindromicSub",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "ZigZagConversion",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-zigzag",
+      "program": "${workspaceFolder}/ZigZagConversion/bin/Debug/net9.0/ZigZagConversion.dll",
+      "cwd": "${workspaceFolder}/ZigZagConversion",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
+  ]
 }
