@@ -44,6 +44,61 @@
         "isDefault": true
       },
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-reverseint",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/ReverseInteger/ReverseInteger.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-atoi",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/StringToIntegerAtoi/StringToIntegerAtoi.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-polinum",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/PalindromeNumber/PalindromeNumber.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-regex",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/RegularExpressionMatching/RegularExpressionMatching.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-mostwater",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/ContainerWithMostWater/ContainerWithMostWater.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
     }
   ]
 }

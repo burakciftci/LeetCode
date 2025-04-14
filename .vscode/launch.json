@@ -40,6 +40,56 @@
       "cwd": "${workspaceFolder}/ZigZagConversion",
       "stopAtEntry": false,
       "console": "internalConsole"
+    },
+    {
+      "name": "ReverseInteger",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-reverseint",
+      "program": "${workspaceFolder}/ReverseInteger/bin/Debug/net9.0/ReverseInteger.dll",
+      "cwd": "${workspaceFolder}/ReverseInteger",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "StringToIntegerAtoi",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-atoi",
+      "program": "${workspaceFolder}/StringToIntegerAtoi/bin/Debug/net9.0/StringToIntegerAtoi.dll",
+      "cwd": "${workspaceFolder}/StringToIntegerAtoi",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "PalindromeNumber",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-polinum",
+      "program": "${workspaceFolder}/PalindromeNumber/bin/Debug/net9.0/PalindromeNumber.dll",
+      "cwd": "${workspaceFolder}/PalindromeNumber",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "RegularExpressionMatching",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-regex",
+      "program": "${workspaceFolder}/RegularExpressionMatching/bin/Debug/net9.0/RegularExpressionMatching.dll",
+      "cwd": "${workspaceFolder}/RegularExpressionMatching",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "ContainerWithMostWater",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-mostwater",
+      "program": "${workspaceFolder}/ContainerWithMostWater/bin/Debug/net9.0/ContainerWithMostWater.dll",
+      "cwd": "${workspaceFolder}/ContainerWithMostWater",
+      "stopAtEntry": false,
+      "console": "internalConsole"
     }
   ]
 }
