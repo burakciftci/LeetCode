@@ -82,14 +82,15 @@
       "console": "internalConsole"
     },
     {
-      "name": "ContainerWithMostWater",
+      "name": "RomanToInteger",
       "type": "coreclr",
       "request": "launch",
-      "preLaunchTask": "build-mostwater",
-      "program": "${workspaceFolder}/ContainerWithMostWater/bin/Debug/net9.0/ContainerWithMostWater.dll",
-      "cwd": "${workspaceFolder}/ContainerWithMostWater",
+      "preLaunchTask": "build-rmntoint",
+      "program": "${workspaceFolder}/RomanToInteger/bin/Debug/net9.0/RomanToInteger.dll",
+      "cwd": "${workspaceFolder}/RomanToInteger",
       "stopAtEntry": false,
       "console": "internalConsole"
-    }
+    },
+
   ]
 }

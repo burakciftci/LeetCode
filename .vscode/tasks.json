@@ -99,6 +99,17 @@
         "isDefault": true
       },
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-rmntoint",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/RomanToInteger/RomanToInteger.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
     }
   ]
 }
