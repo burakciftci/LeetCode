@@ -110,6 +110,28 @@
         "isDefault": true
       },
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-lngcmnprfx",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/LongestCommonPrefix/LongestCommonPrefix.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-thrsum",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/ThreeSum/ThreeSum.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
     }
   ]
 }

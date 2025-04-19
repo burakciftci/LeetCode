@@ -91,6 +91,25 @@
       "stopAtEntry": false,
       "console": "internalConsole"
     },
-
+    {
+      "name": "LongestCommonPrefix",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-lngcmnprfx",
+      "program": "${workspaceFolder}/LongestCommonPrefix/bin/Debug/net9.0/LongestCommonPrefix.dll",
+      "cwd": "${workspaceFolder}/LongestCommonPrefix",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "ThreeSum",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-thrsum",
+      "program": "${workspaceFolder}/ThreeSum/bin/Debug/net9.0/ThreeSum.dll",
+      "cwd": "${workspaceFolder}/ThreeSum",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    }
   ]
 }
