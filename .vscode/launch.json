@@ -110,6 +110,16 @@
       "cwd": "${workspaceFolder}/ThreeSum",
       "stopAtEntry": false,
       "console": "internalConsole"
+    },
+    {
+      "name": "IntegerToRoman",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-intoroman",
+      "program": "${workspaceFolder}/IntegerToRoman/bin/Debug/net9.0/IntegerToRoman.dll",
+      "cwd": "${workspaceFolder}/IntegerToRoman",
+      "stopAtEntry": false,
+      "console": "internalConsole"
     }
   ]
 }
