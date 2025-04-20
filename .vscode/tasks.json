@@ -143,6 +143,17 @@
         "isDefault": true
       },
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-ltcmph",
+      "type": "shell",
+      "command": "dotnet",
+      "args": [ "build", "${workspaceFolder}/LetterCombinationsOfAPhoneNumber/LetterCombinationsOfAPhoneNumber.csproj" ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$msCompile"
     }
   ]
 }

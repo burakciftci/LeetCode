@@ -120,6 +120,16 @@
       "cwd": "${workspaceFolder}/IntegerToRoman",
       "stopAtEntry": false,
       "console": "internalConsole"
+    },
+    {
+      "name": "LetterCombinationsOfAPhoneNumber",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-ltcmph",
+      "program": "${workspaceFolder}/LetterCombinationsOfAPhoneNumber/bin/Debug/net9.0/LetterCombinationsOfAPhoneNumber.dll",
+      "cwd": "${workspaceFolder}/LetterCombinationsOfAPhoneNumber",
+      "stopAtEntry": false,
+      "console": "internalConsole"
     }
   ]
 }
