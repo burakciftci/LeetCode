@@ -130,6 +130,67 @@
       "cwd": "${workspaceFolder}/LetterCombinationsOfAPhoneNumber",
       "stopAtEntry": false,
       "console": "internalConsole"
+    },
+    {
+      "name": "4Sum",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-4Sum",
+      "program": "${workspaceFolder}/4Sum/bin/Debug/net9.0/4Sum.dll",
+      "cwd": "${workspaceFolder}/4Sum",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "RemoveNthFromEnd",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-rmvnth",
+      "program": "${workspaceFolder}/RemoveNthFromEnd/bin/Debug/net9.0/RemoveNthFromEnd.dll",
+      "cwd": "${workspaceFolder}/RemoveNthFromEnd",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "ValidParentheses",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-vldprt",
+      "program": "${workspaceFolder}/ValidParentheses/bin/Debug/net9.0/ValidParentheses.dll",
+      "cwd": "${workspaceFolder}/ValidParentheses",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "MergeTwoSortedLists",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-mrg2srt",
+      "program": "${workspaceFolder}/MergeTwoSortedLists/bin/Debug/net9.0/MergeTwoSortedLists.dll",
+      "cwd": "${workspaceFolder}/MergeTwoSortedLists",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "GenerateParentheses",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-gnrtprt",
+      "program": "${workspaceFolder}/GenerateParentheses/bin/Debug/net9.0/GenerateParentheses.dll",
+      "cwd": "${workspaceFolder}/MergeTwoSortedLists",
+      "stopAtEntry": false,
+      "console": "internalConsole"
+    },
+    {
+      "name": "MergeKSortedLists",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-mrg",
+      "program": "${workspaceFolder}/MergeKSortedLists/bin/Debug/net9.0/MergeKSortedLists.dll",
+      "cwd": "${workspaceFolder}/MergeKSortedLists",
+      "stopAtEntry": false,
+      "console": "internalConsole"
     }
+  
   ]
 }
